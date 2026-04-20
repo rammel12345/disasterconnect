@@ -198,6 +198,7 @@
 </template>
 
 <script setup>
+import { ref, computed, onMounted, watch, inject } from 'vue'
 import { 
   TrendingUp, Users, Wind, Banknote, Package, Map, BarChart3, Timer, Factory, Truck, MapPin, CheckCircle, Clock 
 } from 'lucide-vue-next'
